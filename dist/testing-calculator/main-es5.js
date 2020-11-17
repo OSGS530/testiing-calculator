@@ -114,7 +114,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       vars: 0,
       template: function AppComponent_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](0, "adsoft - simple calculator\n");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](0, "osgs - simple calculator\n");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-ui");
         }
