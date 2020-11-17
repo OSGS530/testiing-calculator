@@ -1,7 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { UiComponent } from './ui.component';
 import { FormsModule } from '@angular/forms';
-import { By } from '@angular/platform-browser'
+import { By } from '@angular/platform-browser';
 
 describe('Ui Addition - Component', () => {
   let component: UiComponent;

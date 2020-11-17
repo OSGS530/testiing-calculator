@@ -14,7 +14,7 @@ export class UiComponent implements OnInit {
   operator1 = 0;
   operator2 = 0;
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
   addition() {
