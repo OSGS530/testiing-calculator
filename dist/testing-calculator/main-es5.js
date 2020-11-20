@@ -229,6 +229,184 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./src/app/division/division.ts":
+  /*!**************************************!*\
+    !*** ./src/app/division/division.ts ***!
+    \**************************************/
+
+  /*! exports provided: division */
+
+  /***/
+  function srcAppDivisionDivisionTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "division", function () {
+      return division;
+    });
+
+    function division(oper1, oper2) {
+      // refactoring
+      var div = oper1 / oper2;
+      return div;
+    }
+    /***/
+
+  },
+
+  /***/
+  "./src/app/exp/exp.ts":
+  /*!****************************!*\
+    !*** ./src/app/exp/exp.ts ***!
+    \****************************/
+
+  /*! exports provided: exp */
+
+  /***/
+  function srcAppExpExpTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "exp", function () {
+      return exp;
+    });
+
+    function exp(base, exp) {
+      // refactoring
+      var pow = 0;
+      pow = Math.pow(base, exp);
+      return pow;
+    }
+    /***/
+
+  },
+
+  /***/
+  "./src/app/multiplication/multiplication.ts":
+  /*!**************************************************!*\
+    !*** ./src/app/multiplication/multiplication.ts ***!
+    \**************************************************/
+
+  /*! exports provided: multiplication */
+
+  /***/
+  function srcAppMultiplicationMultiplicationTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "multiplication", function () {
+      return multiplication;
+    });
+
+    function multiplication(oper1, oper2) {
+      // refactoring
+      var mul = oper1 * oper2;
+      return mul;
+    }
+    /***/
+
+  },
+
+  /***/
+  "./src/app/sqr/sqr.ts":
+  /*!****************************!*\
+    !*** ./src/app/sqr/sqr.ts ***!
+    \****************************/
+
+  /*! exports provided: sqr */
+
+  /***/
+  function srcAppSqrSqrTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "sqr", function () {
+      return sqr;
+    });
+
+    function sqr(oper1) {
+      // refactoring
+      var sqr = 0;
+      sqr = oper1 * oper1;
+      return sqr;
+    }
+    /***/
+
+  },
+
+  /***/
+  "./src/app/sqrt/sqrt.ts":
+  /*!******************************!*\
+    !*** ./src/app/sqrt/sqrt.ts ***!
+    \******************************/
+
+  /*! exports provided: sqrt */
+
+  /***/
+  function srcAppSqrtSqrtTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "sqrt", function () {
+      return sqrt;
+    });
+
+    function sqrt(oper1) {
+      // refactoring
+      var sqrt = 0;
+      sqrt = Math.sqrt(oper1);
+      return sqrt;
+    }
+    /***/
+
+  },
+
+  /***/
+  "./src/app/substraction/substraction.ts":
+  /*!**********************************************!*\
+    !*** ./src/app/substraction/substraction.ts ***!
+    \**********************************************/
+
+  /*! exports provided: substraction */
+
+  /***/
+  function srcAppSubstractionSubstractionTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "substraction", function () {
+      return substraction;
+    });
+
+    function substraction(oper1, oper2) {
+      // refactoring
+      var subs = 0;
+      subs = oper1 - oper2;
+      return subs;
+    }
+    /***/
+
+  },
+
+  /***/
   "./src/app/ui/ui.component.ts":
   /*!************************************!*\
     !*** ./src/app/ui/ui.component.ts ***!
@@ -262,7 +440,43 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    var _division_division__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ../division/division */
+    "./src/app/division/division.ts");
+    /* harmony import */
+
+
+    var _substraction_substraction__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ../substraction/substraction */
+    "./src/app/substraction/substraction.ts");
+    /* harmony import */
+
+
+    var _multiplication_multiplication__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ../multiplication/multiplication */
+    "./src/app/multiplication/multiplication.ts");
+    /* harmony import */
+
+
+    var _exp_exp__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! ../exp/exp */
+    "./src/app/exp/exp.ts");
+    /* harmony import */
+
+
+    var _sqr_sqr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    /*! ../sqr/sqr */
+    "./src/app/sqr/sqr.ts");
+    /* harmony import */
+
+
+    var _sqrt_sqrt__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    /*! ../sqrt/sqrt */
+    "./src/app/sqrt/sqrt.ts");
+    /* harmony import */
+
+
+    var _angular_forms__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! @angular/forms */
     "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
 
@@ -288,7 +502,44 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "substraction",
         value: function substraction() {
-          alert("substraction here !");
+          var myresult = 0;
+          myresult = Object(_substraction_substraction__WEBPACK_IMPORTED_MODULE_3__["substraction"])(this.operator1, this.operator2);
+          this.result = myresult;
+        }
+      }, {
+        key: "division",
+        value: function division() {
+          var myresult = 0;
+          myresult = Object(_division_division__WEBPACK_IMPORTED_MODULE_2__["division"])(this.operator1, this.operator2);
+          this.result = myresult;
+        }
+      }, {
+        key: "multiplication",
+        value: function multiplication() {
+          var myresult = 0;
+          myresult = Object(_multiplication_multiplication__WEBPACK_IMPORTED_MODULE_4__["multiplication"])(this.operator1, this.operator2);
+          this.result = myresult;
+        }
+      }, {
+        key: "exp",
+        value: function exp() {
+          var myresul = 0;
+          myresul = Object(_exp_exp__WEBPACK_IMPORTED_MODULE_5__["exp"])(this.operator1, this.operator2);
+          this.result = myresul;
+        }
+      }, {
+        key: "sqr",
+        value: function sqr() {
+          var myresul = 0;
+          myresul = Object(_sqr_sqr__WEBPACK_IMPORTED_MODULE_6__["sqr"])(this.operator1);
+          this.result = myresul;
+        }
+      }, {
+        key: "sqrt",
+        value: function sqrt() {
+          var myresul = 0;
+          myresul = Object(_sqrt_sqrt__WEBPACK_IMPORTED_MODULE_7__["sqrt"])(this.operator1);
+          this.result = myresul;
         }
       }]);
 
@@ -302,9 +553,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     UiComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: UiComponent,
       selectors: [["app-ui"]],
-      decls: 14,
+      decls: 25,
       vars: 3,
-      consts: [[1, "calculator"], [1, "input-group"], [1, "input-group-addon"], [1, "glyphicon", "glyphicon-pencil"], ["id", "operator1", "type", "number", "name", "operator1", "placeholder", "0.0", 1, "form-control", "operator1", 3, "ngModel", "ngModelChange"], ["id", "operator2", "type", "number", "name", "operator2", "placeholder", "0.0", 1, "form-control", "operator2", 3, "ngModel", "ngModelChange"], [1, "glyphicon", "glyphicon-plus", "addition-button", 3, "click"], [1, "glyphicon", "glyphicon-minus", "substraction-button", 3, "click"], [1, "result"]],
+      consts: [[1, "calculator"], [1, "input-group"], [1, "input-group-addon"], [1, "glyphicon", "glyphicon-pencil"], ["id", "operator1", "type", "number", "name", "operator1", "placeholder", "0.0", 1, "form-control", "operator1", 3, "ngModel", "ngModelChange"], ["id", "operator2", "type", "number", "name", "operator2", "placeholder", "0.0", 1, "form-control", "operator2", 3, "ngModel", "ngModelChange"], [1, "glyphicon", "glyphicon-plus", "addition-button", 3, "click"], [1, "glyphicon", "glyphicon-minus", "substraction-button", 3, "click"], [1, "glyphicon", "glyphicon-remove", "substraction-button", 3, "click"], [1, "glyphicon", "glyphicon-italic", "substraction-button", 3, "click"], [1, "glyphicon", "glyphicon-menu-up", "substraction-button", 3, "click"], [1, "glyphicon", "glyphicon-superscript", "substraction-button", 3, "click"], [1, "glyphicon", "glyphicon-console", "substraction-button", 3, "click"], [1, "result"]],
       template: function UiComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -357,19 +608,71 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "i", 7);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "br");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function UiComponent_Template_i_click_11_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "i", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function UiComponent_Template_i_click_12_listener() {
             return ctx.substraction();
+          });
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "i", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function UiComponent_Template_i_click_14_listener() {
+            return ctx.multiplication();
+          });
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "i", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function UiComponent_Template_i_click_16_listener() {
+            return ctx.division();
+          });
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "i", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function UiComponent_Template_i_click_18_listener() {
+            return ctx.exp();
+          });
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "i", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function UiComponent_Template_i_click_20_listener() {
+            return ctx.sqr();
+          });
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "i", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function UiComponent_Template_i_click_22_listener() {
+            return ctx.sqrt();
           });
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "span", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "span", 13);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         }
@@ -383,12 +686,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.operator2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](15);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.result);
         }
       },
-      directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgForm"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NumberValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgModel"]],
+      directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_8__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_8__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_8__["NgForm"], _angular_forms__WEBPACK_IMPORTED_MODULE_8__["NumberValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_8__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_8__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_8__["NgModel"]],
       styles: [".calculator[_ngcontent-%COMP%] {\n    width: 150px;\n    text-align: center;\n    color: #999;\n}\n\n.result[_ngcontent-%COMP%] {\n    font-size: 3.0em;\n    font-weight: bold;\n    color: red;\n\n}\n\n.operator1[_ngcontent-%COMP%] {\n    font-size: 1.5em;\n    font-weight: bold;\n    color: black;\n\n}\n\n.operator2[_ngcontent-%COMP%] {\n    font-size: 1.5em;\n    font-weight: bold;\n    color: blue;\n\n}\n\n.addition-button[_ngcontent-%COMP%] {\n    cursor: pointer;\n    color: blue;\n}\n\n.substraction-button[_ngcontent-%COMP%] {\n    cursor: pointer;\n    color: green;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdWkvdWkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFlBQVk7SUFDWixrQkFBa0I7SUFDbEIsV0FBVztBQUNmOztBQUVBO0lBQ0ksZ0JBQWdCO0lBQ2hCLGlCQUFpQjtJQUNqQixVQUFVOztBQUVkOztBQUVBO0lBQ0ksZ0JBQWdCO0lBQ2hCLGlCQUFpQjtJQUNqQixZQUFZOztBQUVoQjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsV0FBVzs7QUFFZjs7QUFFQTtJQUNJLGVBQWU7SUFDZixXQUFXO0FBQ2Y7O0FBQ0E7SUFDSSxlQUFlO0lBQ2YsWUFBWTtBQUNoQiIsImZpbGUiOiJzcmMvYXBwL3VpL3VpLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY2FsY3VsYXRvciB7XG4gICAgd2lkdGg6IDE1MHB4O1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBjb2xvcjogIzk5OTtcbn1cblxuLnJlc3VsdCB7XG4gICAgZm9udC1zaXplOiAzLjBlbTtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbiAgICBjb2xvcjogcmVkO1xuXG59XG5cbi5vcGVyYXRvcjEge1xuICAgIGZvbnQtc2l6ZTogMS41ZW07XG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gICAgY29sb3I6IGJsYWNrO1xuXG59XG5cbi5vcGVyYXRvcjIge1xuICAgIGZvbnQtc2l6ZTogMS41ZW07XG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gICAgY29sb3I6IGJsdWU7XG5cbn1cblxuLmFkZGl0aW9uLWJ1dHRvbiB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGNvbG9yOiBibHVlO1xufVxuLnN1YnN0cmFjdGlvbi1idXR0b24ge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBjb2xvcjogZ3JlZW47XG59Il19 */"]
     });
     /*@__PURE__*/
